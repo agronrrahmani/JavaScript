@@ -3,5 +3,5 @@ var button = document.getElementById('btn_id');
 var text = document.getElementById('text_id');
 
 button.onclick = function () {
-    text.innerHTML = input.Value;
+    text.innerHTML = input.value;
 }
