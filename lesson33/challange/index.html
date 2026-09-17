@@ -16,6 +16,11 @@
             color: red; 
             margin-left: 8px;
         }
+        #phone_error, #age_error {
+            visibility:hidden; 
+            color: red; 
+            margin-left: 8px;
+        }
         .hint {
             background: white;border-left: 4px solid #0f3460; padding: 10 px 14px; max-width: 480px;
         }
@@ -33,14 +38,19 @@
         </div>
         <br>
         <div class="name-contanier">
-            <label for="name" id="name label">Age:</label>
+            <label for="name" id="name_label">Age:</label>
             <input type="text" name="name" id="name">
             <span id="name_error">Please enter a valid name</span>
         </div>
         <div class="city-contanier">
-            <label for="name" id="city label">Age:</label>
+            <label for="city" id="city_label">City:</label>
             <input type="city" name="city" id="city">
             <span id="city_error">Please enter a valid city</span>
+        </div>
+        <div class="phone-contanier">
+            <label for="phone" id="phone_label">phone:</label>
+            <input type="text" name="phone" id="phone">
+            <span id="phone_error">Please enter a valid phone number</span>
         </div>
         <button type="submit" name="submit">send</button>
     </form>
